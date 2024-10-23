@@ -6,7 +6,34 @@
     <title>Sondaggio Scuola</title>
    
 </head>
+
+
 <body>
-    
+    <form action="risultati.php" method="get">
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="nome"><br>
+        <label for="lname">Cognome:</label><br>
+        <input type="text" id="lname" name="cognome"><br>
+        <label for="lname">Data di nascita:</label><br>
+        <input type="date" id="lname" name="dataNascita"><br>
+        <label for="lname">Arrivo a casa (giorno lungo):</label><br>
+        <input type="time" id="lname" name="ritorno"><br>
+        <br>
+        <label for="lname">Arrivo a scuola:</label><br>
+        <input type="radio" id="lname" name="mezzo" value="piedi">A piedi<br>
+        <input type="radio" id="lname" name="mezzo" value="pubblici">Mezzi pubblici<br>
+        <input type="radio" id="lname" name="mezzo" value="auto">Auto<br>
+        <br>
+        <label for="lname">Corsi pomeridiani:</label><br>
+        <input type="checkbox" id="lname" name="corso1" value="inglese">Corso d'inglese<br>
+        <input type="checkbox" id="lname" name="corso2" value="teatro">Corso di teatro<br>
+        <input type="checkbox" id="lname" name="corso3" value="sport">Attività sportive<br>
+        <br>
+        <input type="submit">
+
+
+
+
+    </form>
 </body>
 </html>
