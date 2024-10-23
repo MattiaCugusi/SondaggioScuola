@@ -55,6 +55,8 @@
                 $stringa = $corso2 . "," . $corso3;
               }else if ($ris1 == true && $ris2 == true && $ris3 == true){
                 $stringa = $corso1 . "," . $corso2 . "," . $corso3;
+              }else if ($ris1 == false && $ris2 == false && $ris3 == true){
+                $stringa =  $corso3;
               }
 
               echo "<td style='border: 1px solid black'>" . $stringa . "</td>
